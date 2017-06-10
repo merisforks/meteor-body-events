@@ -3,11 +3,19 @@ Meteor Body Events
 
 Template.body.events working
 
+Motivation
+----------
+
+* Meteor's body events do not support template rendered by Blaze.render.
+* gwendall:body-events was able to hande events on Blaze rendered templates
+* gwendall:body-events had a bug passing the template, brucejo:body-events fixes that bug.
+
+
 Installation
 ------------
 
 ``` sh
-meteor add gwendall:body-events
+meteor add brucejo:body-events
 ```
 
 Methods
