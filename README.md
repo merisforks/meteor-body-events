@@ -8,7 +8,9 @@ Motivation
 
 * Meteor's body events do not support template rendered by Blaze.render.
 * gwendall:body-events was able to hande events on Blaze rendered templates
-* gwendall:body-events had a bug passing the template, brucejo:body-events fixes that bug.
+* gwendall:body-events has an [issue](https://github.com/gwendall/meteor-body-events/issues/6) passing the template, brucejo:body-events fixes that bug.
+
+This repository will be deleted if gwendall:body-events chooses to accept the [PR](https://github.com/gwendall/meteor-body-events/pull/7).
 
 
 Installation
