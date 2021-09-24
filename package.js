@@ -5,14 +5,14 @@ Package.describe({
   git: "https://github.com/gwendall/meteor-body-events"
 });
 
-Package.on_use(function (api, where) {
+Package.onUse(function (api, where) {
 
   api.use([
-    "templating@1.0.7",
-    "jquery@1.0.0"
+    "templating",
+    "jquery"
   ], "client");
 
-  api.add_files([
+  api.addFiles([
     "lib.js"
   ], "client");
 
